@@ -13,7 +13,6 @@ var Chart = require("chart.js");
 var AppComponent = (function () {
     function AppComponent(elementRef) {
         this.elementRef = elementRef;
-        this.title = "Bound title string";
         this.data = {
             labels: ['2006', '2007', '2008', '2009', '2010', '2011', '2012'],
             datasets: [

@@ -1,4 +1,4 @@
-import { Component, OnInit, ElementRef } from '@angular/core';
+import { Component, ElementRef } from '@angular/core';
 
 import Chart = require("chart.js");
 
@@ -9,8 +9,6 @@ import Chart = require("chart.js");
     styleUrls: [ 'app.component.css' ]
 })
 export class AppComponent {
-
-    title: string = "Bound title string";
 
     constructor(private elementRef: ElementRef) { }
 
