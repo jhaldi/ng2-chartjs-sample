@@ -3,6 +3,8 @@ import {BrowserModule} from '@angular/platform-browser';
 
 import {AppComponent}  from './app.component';
 
+import 'chart.js';
+
 //Uncomment as needed
 //import {myAppRouting} from './app.routing';
 
